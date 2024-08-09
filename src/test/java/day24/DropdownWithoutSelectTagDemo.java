@@ -19,7 +19,7 @@ public class DropdownWithoutSelectTagDemo {
 		driver.manage().window().maximize();
 		
 		//Click on the drop down
-		driver.findElement(By.className("dropdown-label")).click();
+		driver.findElement(By.xpath("//div[@class='dropdown-list']")).click();
 		//List<WebElement> options = driver.findElements(By.xpath("//ul/li/a/div[@class='form-check']"));
 		
 		//Find total number of options
